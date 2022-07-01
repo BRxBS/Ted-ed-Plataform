@@ -38,7 +38,7 @@ export function Subscribe() {
           <div className="flex items-center justify-center md:block">
             <LogoEd />
           </div>
-          <h1 className="mt-8 text-2xl md:text-[2.5rem] leading-tight justify-center px-4 py-2 ">
+          <h1 className="mt-8 mx-auto text-2xl md:text-[2.5rem] leading-tight justify-center px-4 py-2 ">
             Learn about
             <strong className="text-red-600"> coronavirus </strong>, how
             <strong className="text-red-600"> vaccines </strong> work and how
@@ -46,14 +46,14 @@ export function Subscribe() {
             <strong className="text-red-600"> viruses</strong>.
           </h1>
 
-          <p className="mt-8 text-sm md:text-2xl text-gray-200 leading-relaxed px-4 py-2">
+          <p className="mt-8 mx-auto text-sm md:text-2xl text-gray-200 leading-relaxed px-4 py-2">
             With this sequence of videos you will learn about your body, immune
             system, about the stages of a pandemic and much more, guarantee your
             registration.
           </p>
         </div>
 
-        <div className="w-11/12 h-80 p-8 bg-gray-700 border border-gray-500 rounded">
+        <div className="w-11/12 h-80 p-8 mx-auto bg-gray-700 border border-gray-500 rounded">
           <strong className="text-2xl mb-6 block">Sign-up for free</strong>
 
           <form
