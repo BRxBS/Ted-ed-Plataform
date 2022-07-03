@@ -1,11 +1,12 @@
 import { LogoEd } from "./LogoEd";
 import {List, X} from 'phosphor-react'
-import { useState } from "react";
+import {  useState } from "react";
 import { ConogramaAulas } from "./ConogramaAulas";
 
 
 export function Header(){
     const[open, setOpen] = useState(true);
+ 
     return (
       <>
         <header className="max-w-full py-3 px-2 justify-between flex items-center md:justify-center bg-gray-700 border-b border-gray-600">
@@ -20,6 +21,7 @@ export function Header(){
           </div>
         </header>
         <div>{!open ? <ConogramaAulas /> : ''}</div>
+    
       </>
     );
 }

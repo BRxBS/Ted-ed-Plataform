@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { BackGround } from "../components/BackGround";
+import { ConogramaAulas } from "../components/ConogramaAulas";
 import { Header } from "../components/Header";
 import { Sidebar } from "../components/Sidebar";
 import { Video } from "../components/Video";
@@ -15,7 +16,8 @@ const { slug } = useParams<{ slug: string }>()
         { slug? <Video lessonSlug={slug}/> : 
         <BackGround/>}
      
-      <Sidebar/>
+      <Sidebar/> 
       </main>
+     
     </div>
   )}
