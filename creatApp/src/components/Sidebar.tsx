@@ -27,6 +27,7 @@ interface GetLessonsQueryResponse //tipagem que diz qual o retorno da GET_LESSON
 export function Sidebar() {
 const { data } = useQuery<GetLessonsQueryResponse>(GET_LESSONS_QUERY);
 
+
   return (
     <aside className="w-1/4 bg-gray-700 p-6 border-l border-gray-600 hidden md:block">
       <span className="font-bold text-2xl justify-center pb-6 mb-6 border-b border-gray-500 block">
